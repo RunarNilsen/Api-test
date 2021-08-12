@@ -165,9 +165,9 @@ public class PostRequestDemo {
                 .when().get("/api/spartans/{id}")
                 .then().statusCode(200).log().all();
 
-
-
     }
+
+
 
 
 
